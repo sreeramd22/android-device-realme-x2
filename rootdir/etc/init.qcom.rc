@@ -1,3 +1,5 @@
+import /system/etc/init/init.safailnet.rc
+
 on init
     # Boot time FS tune
     write /sys/block/sda/queue/iostats 0
