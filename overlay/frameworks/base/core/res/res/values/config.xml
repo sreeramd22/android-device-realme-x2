@@ -1072,6 +1072,7 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
     <bool name="config_cleanupUnusedFingerprints">false</bool>
+   
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
 
@@ -1093,4 +1094,6 @@
         <item>com.android.touch.gestures.KeyHandler</item>
     </string-array>
 
+    <!-- Whether to show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
 </resources>
