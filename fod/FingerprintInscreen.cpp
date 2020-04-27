@@ -77,14 +77,17 @@ Return<int32_t> FingerprintInscreen::getSize() {
 }
 
 Return<void> FingerprintInscreen::onStartEnroll() {
+    LOG(INFO) << __func__ << "start";
     return Void();
 }
 
 Return<void> FingerprintInscreen::onFinishEnroll() {
+    LOG(INFO) << __func__ << "start";
     return Void();
 }
 
 Return<void> FingerprintInscreen::onPress() {
+    LOG(INFO) << __func__ << "start";
     mFingerPressed = true;
     set(DIMLAYER_PATH, FP_BEGIN);
     set(HBM_PATH, FP_BEGIN);
@@ -94,25 +97,31 @@ Return<void> FingerprintInscreen::onPress() {
             set(FP_PRESS_PATH, FP_BEGIN);
         }
     }).detach();
+    LOG(INFO) << __func__ << "exit";
     return Void();
 }
 
 Return<void> FingerprintInscreen::onRelease() {
+    LOG(INFO) << __func__ << "start";
     mFingerPressed = false;
     set(FP_PRESS_PATH, FP_ENDIT);
     set(DIMLAYER_PATH, FP_ENDIT);
     set(HBM_PATH, FP_ENDIT);
+    LOG(INFO) << __func__ << "exit";
     return Void();
 }
 
 Return<void> FingerprintInscreen::onShowFODView() {
+    LOG(INFO) << __func__;
     return Void();
 }
 
 Return<void> FingerprintInscreen::onHideFODView() {
+    LOG(INFO) << __func__ << "start";
     set(HBM_PATH, FP_ENDIT);
     set(DIMLAYER_PATH, FP_ENDIT);
     set(FP_PRESS_PATH, FP_ENDIT);
+    LOG(INFO) << __func__ << "exit";
     return Void();
 }
 
@@ -131,6 +140,7 @@ Return<void> FingerprintInscreen::setLongPressEnabled(bool) {
 }
 
 Return<int32_t> FingerprintInscreen::getDimAmount(int32_t brightness) {
+    LOG(INFO) << __func__ << "start";
     return(int32_t)((brightness > 498) ? (255 * (1.0 - pow(brightness / 2047.0 * 430.0 / 600.0, 0.455))):
             (255 * (1.0 - pow(brightness / 1605.0, 0.455)))); 
 }
