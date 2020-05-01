@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_x2.mk
+    $(LOCAL_DIR)/bliss_x2.mk
 
 COMMON_LUNCH_CHOICES := \
-	pixys_x2-eng \
-        pixys_x2-user \
-        pixys_x2-userdebug
+	bliss_x2-eng \
+        bliss_x2-user \
+        bliss_x2-userdebug
