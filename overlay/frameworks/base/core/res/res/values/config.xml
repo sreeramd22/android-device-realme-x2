@@ -1074,4 +1074,7 @@
     <bool name="config_cleanupUnusedFingerprints">false</bool>
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
