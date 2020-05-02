@@ -1,12 +1,14 @@
 [
   {
-    "repository": "sreeramd22/android_vendor_realme_x2",
-    "target_path": "vendor/realme/x2",
-    "branch": "lineage-17.1"
+    "repository": "android_vendor_realme_x2",
+    "target_path": "vendor/realme/x2"
   },
   {
-    "repository": "dev-harsh1998/android_kernel_realme_sm6150",
-    "target_path": "kernel/realme/sm6150",
-    "branch": "Quartz"
+    "repository": "android_kernel_realme_sm6150",
+    "target_path": "kernel/realme/sm6150"
+  }
+  {
+    "repository" : "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
   }
 ]
