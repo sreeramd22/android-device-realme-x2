@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
+      $(LOCAL_DIR)/xtended_x2.mk
+
+COMMON_LUNCH_CHOICES := \
+	xtended_x2-eng \
+        xtended_x2-user \
+        xtended_x2-userdebug

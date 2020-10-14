@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/realme/X2/X2-vendor.mk)
+$(call inherit-product, vendor/realme/x2/x2-vendor.mk)
 
 # Prebuilts Path
-PREBUILT_DVC_PATH := device/realme/X2-prebuilts
+PREBUILT_DVC_PATH := device/realme/x2-prebuilts
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
@@ -32,7 +32,7 @@ TARGET_LMKD_STATS_LOG := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-xtended
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true

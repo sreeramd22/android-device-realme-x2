@@ -1,7 +1,7 @@
-Device configuration for Realme X2
+Device configuration for Realme x2
 =========================================
 
-The realme X2 (codenamed _"RMX{ 1991, 1991CN, 1992, 1992EX, 1992AEX, 1993, 1993EEA, 1993SPN }"_) is a mid-range smartphone from realme.
+The realme x2 (codenamed _"RMX{ 1991, 1991CN, 1992, 1992EX, 1992AEX, 1993, 1993EEA, 1993SPN }"_) is a mid-range smartphone from realme.
 
 It was announced & released in September 2019.
 
@@ -21,4 +21,4 @@ Rear Camera  | 64MP (wide) / 8MP (telephoto) / 2MP (ultrawide) / 2MP (depth)
 Front Camera | 32MP
 
 ## Device picture
-![realme X2](https://csmobiles.com/28289-large_default/realme-x2-6-4-8gb-128gb-dual-sim-pearl-white.jpg "realme X2 in lunar white")
+![realme x2](https://csmobiles.com/28289-large_default/realme-x2-6-4-8gb-128gb-dual-sim-pearl-white.jpg "realme x2 in lunar white")
