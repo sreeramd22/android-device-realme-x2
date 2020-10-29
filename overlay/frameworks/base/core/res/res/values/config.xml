@@ -1161,4 +1161,7 @@
 	
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
+    
+    <!-- Enable face auth when swiping security view -->
+    <bool name="config_faceAuthOnSecurityView">true</bool>
 </resources>
