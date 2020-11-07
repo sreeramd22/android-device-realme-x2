@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X2.mk
+    $(LOCAL_DIR)/xtended_X2.mk
+
+COMMON_LUNCH_CHOICES := \
+	xtended_X2-eng \
+        xtended_X2-user \
+        xtended_X2-userdebug
