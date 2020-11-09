@@ -32,7 +32,7 @@ TARGET_LMKD_STATS_LOG := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-xtended
+    $(LOCAL_PATH)/overlay-pixys
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
