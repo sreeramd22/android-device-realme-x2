@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/realme/X2/X2-vendor.mk)
+$(call inherit-product, vendor/realme/x2/x2-vendor.mk)
 
 # Prebuilts Path
-PREBUILT_DVC_PATH := device/realme/X2-prebuilts
+PREBUILT_DVC_PATH := device/realme/x2-prebuilts
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
